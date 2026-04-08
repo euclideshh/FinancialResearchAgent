@@ -2,14 +2,11 @@
 
 ## Overview
 
-1. Executive Summary
-Financial Research Agent is a Python-based multi-agent pipeline that produces structured, data-driven financial research reports. The system is designed to minimize cost and risk by separating utility work from reasoning and adding an explicit verification stage. It is built using the Google ADK framework and OpenRouter's free models.
+1. Executive Summary: Financial Research Agent is a Python-based multi-agent pipeline that produces structured, data-driven financial research reports. The system is designed to minimize cost and risk by separating utility work from reasoning and adding an explicit verification stage. It is built using the Google ADK framework and OpenRouter's free models.
 
-2. Problem Statement
-Retail investors face high latency and "hallucination" risks when using standard LLMs for financial data. Existing AI solutions are either too expensive (high API costs) or unreliable. Solution: A hierarchical workflow that offloads "Utility Tasks" to a local model and "Reasoning Tasks" to the cloud, ensuring data-backed accuracy through a mandatory verification layer.
+2. Problem Statement: Retail investors face high latency and "hallucination" risks when using standard LLMs for financial data. Existing AI solutions are either too expensive (high API costs) or unreliable. Solution: A hierarchical workflow that offloads "Utility Tasks" to a local model and "Reasoning Tasks" to the cloud, ensuring data-backed accuracy through a mandatory verification layer.
 
-3. Target Audience
-Retail Investors: Seeking professional-grade market synthesis.
+3. Target Audience: Retail Investors: Seeking professional-grade market synthesis.
 Financial Analysts: Requiring a "first draft" of market resilience reports.
 
 ## Architecture

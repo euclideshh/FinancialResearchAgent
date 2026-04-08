@@ -1,5 +1,6 @@
 venv/
 notebook/
+*.ipynb
 __pycache__/
 *.pyc
 *.pyo
